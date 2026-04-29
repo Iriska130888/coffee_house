@@ -1,0 +1,22 @@
+$img-height: 250px;
+$border-radius: 12px;
+$gap-size: 30px;
+
+.menu-item {
+  width: 100%;
+  height: $img-height;
+  object-fit: cover;
+  border-radius: $border-radius;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.menu-card {
+  margin-bottom: $gap-size;
+  padding: 15px;
+  border: 1px solid #f0f0f0;
+}
